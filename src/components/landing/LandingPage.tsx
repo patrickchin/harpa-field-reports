@@ -500,7 +500,6 @@ export function LandingPage() {
       <Header />
       <main>
         <Hero />
-        <ProblemSection />
         <HowItWorks />
         <Features />
         <WaitlistForm />

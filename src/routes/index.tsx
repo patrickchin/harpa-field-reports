@@ -1,26 +1,27 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { LandingPage } from "@/components/landing/LandingPage";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Harpa Pro — Daily construction reports before you leave the jobsite" },
+      {
+        name: "description",
+        content:
+          "Harpa Pro turns field notes, photos, and voice updates into clean daily construction reports. Built for foremen and site supervisors. Join the waitlist.",
+      },
+      { property: "og:title", content: "Harpa Pro — Daily reports before you leave the jobsite" },
+      {
+        property: "og:description",
+        content:
+          "Capture field notes, photos, and voice updates throughout the day. Harpa Pro organizes them into clean construction reports.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return <LandingPage />;
 }

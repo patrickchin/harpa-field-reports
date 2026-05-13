@@ -211,7 +211,7 @@ function Hero() {
             Early access · Built with field teams
           </span>
           <h1 className="mt-5 text-4xl font-semibold tracking-tight text-ink sm:text-5xl lg:text-[3.4rem] lg:leading-[1.05]">
-            No more writing site reports, let Harpa Pro write for you
+            Daily reports before you leave the jobsite.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-soft sm:text-lg">
             Harpa Pro helps foremen capture field notes, photos, and voice updates throughout the day,
@@ -481,7 +481,7 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-center">
         <div className="flex flex-col gap-2">
           <Wordmark />
-          <p className="text-xs text-ink-soft">No more writing site reports, let Harpa Pro write for you</p>
+          <p className="text-xs text-ink-soft">Daily reports before you leave the jobsite.</p>
         </div>
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-ink-soft">
           <a href="#" className="hover:text-ink">Privacy</a>

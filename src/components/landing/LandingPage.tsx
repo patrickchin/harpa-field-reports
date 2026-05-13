@@ -211,7 +211,7 @@ function Hero() {
             Early access · Built with field teams
           </span>
           <h1 className="mt-5 text-4xl font-semibold tracking-tight text-ink sm:text-5xl lg:text-[3.4rem] lg:leading-[1.05]">
-            Don&apos;t write site reports, let Harpa Pro write for you
+            Don&apos;t write reports, let Harpa Pro write for you
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-soft sm:text-lg">
             Harpa Pro helps foremen capture field notes, photos, and voice updates throughout the day,
